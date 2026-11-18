@@ -24,6 +24,11 @@
       align-items: center;
    }
 
+   #links a{
+      flex-direction: column;
+      border: solid 10px goldenrod;
+      flex:1;
+   }
    #footer p{
       color:rgb(0, 216, 216);
       font-size: 15pt;
