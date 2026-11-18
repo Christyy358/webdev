@@ -5,8 +5,39 @@
       display:flex;
    }
 
+   #banner div{
+      flex:1
+   }
+
+   #topnav a{
+      color:bisque
+   }
+
+   #main, #sample{
+      flex:4;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #footer{
+      justify-content: center;
+      align-items: center;
+   }
+
+   #footer p{
+      color:azure;
+      font-size: 15pt;
+   }
    .links{
      display:flex table-column;
    }
 
-   
+   *{
+      background-color: beige;
+   }
+
+
+   .container{
+      background-color: aquamarine;
+   }
+
